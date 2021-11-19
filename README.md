@@ -2,5 +2,5 @@
 ## 使用方式 https://cdn.jsdelivr.net/gh/t-jian/static/xxx
 
 # 清除文件的cdn换成 把域名中的 cdn 改为 purge 即可：
-###  如 https://purge.jsdelivr.net/xxx/xxx...
+###  如 https://purge.jsdelivr.net/gh/t-jian/static/xxx
  
