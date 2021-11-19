@@ -1,5 +1,19 @@
 [
     {
+        "label": "请选择",
+        "value": "0",
+        "children": [
+            {
+            "label": "请选择",
+            "value": "1",
+            "children": [{
+                "label": "请选择",
+                "value": "2",
+            }]
+         }
+        ]
+     },
+    {
         "label": "北京市",
         "value": "110000",
         "children": [
