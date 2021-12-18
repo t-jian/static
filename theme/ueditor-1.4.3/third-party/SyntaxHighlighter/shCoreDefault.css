@@ -37,6 +37,7 @@
 
 .syntaxhighlighter {
     width: 99%!important;
+    display: block!important;
     margin: .3em 0 .3em 0!important;
     position: relative!important;
     overflow: auto!important;
