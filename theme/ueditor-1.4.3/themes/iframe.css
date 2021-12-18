@@ -6,3 +6,15 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+.view {
+    margin: 0px !important;
+}
+
+.view img {
+    max-width: 100%;
+}
+
+pre {
+    overflow: hidden;
+    overflow-x: auto;
+}
