@@ -1,11 +1,3 @@
-/*可以在这里添加你自己的css*/
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 .view {
     margin: 0px !important;
 }
