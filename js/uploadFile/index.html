@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-cn">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lrz4 demo&test</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+   
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <input id="upload-container" accept="image/*" type="file" />
+                
+            </div>
+        </div>
+    </div>
+ <button onclick="up()">上传</button>
+    <script src="./file.uploader.js"></script>
+    <script>
+      var uploader= FileUploader.Init({
+            inputId: "#upload-container",
+            quality: 0.85,
+            scale: 0.8,
+            maxWidth:800,
+            autoUpload:true,
+            url: "http://api.ztan.net/api/app/file/upload",
+            beforeUpload:file=>{
+                return true;
+            },
+            progressCallback:function(e){
+                console.log(e,5555)
+            },
+            success: res => {
+                console.log(res, 7777)
+            },
+            fail: res => {
+                console.log(res, 666)
+            }
+        });
+        function up(){
+            uploader.Invoke();
+        }
+        // new FileUploader.Uploader()
+    </script>
+</body>
+
+</html>
